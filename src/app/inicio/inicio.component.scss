@@ -1,0 +1,36 @@
+.picsum-img-wrapper img {
+  width: 800px;  /* Ancho fijo de 800px */
+  height: 500px; /* Mantiene la proporción */
+  margin: 0 auto;
+  display: block;
+}
+
+/* Forzar estilos personalizados para las flechas del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.7) !important; /* Fondo oscuro para mayor visibilidad */
+  border-radius: 50% !important;                   /* Forma circular */
+  width: 50px !important;                          /* Ancho de la flecha */
+  height: 50px !important;                         /* Alto de la flecha */
+  background-size: 50% !important;                 /* Tamaño del icono */
+  background-position: center !important;          /* Centrado del icono */
+  background-repeat: no-repeat !important;         /* Evita que el icono se repita */
+}
+
+/* Flecha izquierda */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath d='M11.354 1.646a.5.5 0 0 0-.708 0L4.5 7.793a.5.5 0 0 0 0 .707l6.146 6.147a.5.5 0 0 0 .708-.708L5.707 8l5.647-5.646a.5.5 0 0 0 0-.708z'/%3E%3C/svg%3E") !important;
+}
+
+/* Flecha derecha */
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath d='M4.646 1.646a.5.5 0 0 1 .708 0L11.5 7.793a.5.5 0 0 1 0 .707l-6.146 6.147a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E") !important;
+}
+
+/* Aumentar área de clic y visibilidad */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5% !important;    /* Área de clic más grande */
+  height: 100% !important; /* La altura de las flechas abarca todo el carrusel */
+}
+

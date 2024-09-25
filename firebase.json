@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "adimonterrey-web",
+    "public": "dist/adi-monterrey/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
