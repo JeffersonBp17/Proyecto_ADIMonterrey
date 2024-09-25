@@ -13,6 +13,7 @@ export class InicioComponent {
     { src: 'Images/Principal.jpg', caption: 'Imagen Principal' },
     { src: 'Images/VistaEscuela.jpg', caption: 'Vista de la Escuela' },
     { src: 'Images/Noche.jpg', caption: 'Vista de Noche' },
+    { src: 'Images/Fiesta.jpg', caption: 'Vista Fiesta' },
     { src: 'Images/VistaVolcan.jpg', caption: 'Vista del Volcán' }
     
   ];
