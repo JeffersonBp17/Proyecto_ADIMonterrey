@@ -1,7 +1,6 @@
 {
   "hosting": {
-    "site": "adimonterrey-web",
-    "public": "dist/adi-monterrey/browser",
+    "public": "dist/ADI-Monterrey/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
